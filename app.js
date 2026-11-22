@@ -35,8 +35,8 @@ const TX = {
   profiles:{ ru: 'Профили и площадки', ky: 'Профилдер жана платформалар', en: 'Profiles and platforms', ja: 'プロフィールとプラットフォーム' },
   about:   { ru: 'О себе', ky: 'Өзүм жөнүндө', en: 'About', ja: '自己紹介' },
   none:    { ru: 'Резюме пока не загружено.', ky: 'Резюме азырынча жүктөлө элек.', en: 'The resume has not been uploaded yet.', ja: '履歴書はまだアップロードされていません。' },
-  hint:    { ru: 'Открой резюме в просмотрщике PDF на устройстве или скачай файл.', ky: 'Резюмени түзмөктөгү PDF көрсөткүчтө ач же файлды жүктөп ал.', en: "Open the resume in your device's PDF viewer or download the file.", ja: '履歴書は端末のPDFビューアで開くか、ファイルをダウンロードしてください。' },
-  open:    { ru: 'Открыть PDF', ky: 'PDF ачуу', en: 'Open PDF', ja: 'PDFを開く' },
+  hint:    { ru: 'Откройте резюме в просмотрщике PDF на устройстве или скачайте файл.', ky: 'Резюмени түзмөктөгү PDF көрсөткүчтө ачкыла же файлды жүктөп алгыла.', en: "Open the resume in your device's PDF viewer or download the file.", ja: '履歴書は端末のPDFビューアで開くか、ファイルをダウンロードしてください。' },
+  open:    { ru: 'Открыть', ky: 'Ачуу', en: 'Open', ja: '開く' },
   dl:      { ru: 'Скачать', ky: 'Жүктөп алуу', en: 'Download', ja: 'ダウンロード' },
   close:   { ru: 'Закрыть', ky: 'Жабуу', en: 'Close', ja: '閉じる' },
   empty:   { ru: 'Пока ничего нет.', ky: 'Азырынча эч нерсе жок.', en: 'Nothing here yet.', ja: 'まだ何もありません。' }
