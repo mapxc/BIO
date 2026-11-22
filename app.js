@@ -37,10 +37,10 @@ const TX = {
   resume:  { ru: 'РЕЗЮМЕ', ky: 'РЕЗЮМЕ', en: 'RESUME', ja: '履歴書' },
   resumeT: { ru: 'Резюме', ky: 'Резюме', en: 'Resume', ja: '履歴書' },
   contact: { ru: 'Связаться', ky: 'Байланышуу', en: 'Contact', ja: '連絡先' },
-  about:   { ru: 'О себе', ky: 'Өзүм жөнүндө', en: 'About', ja: '自己紹介' },
+  about:   { ru: 'Навыки', ky: 'Көндүмдөр', en: 'Skills', ja: 'スキル' },
   none:    { ru: 'Резюме пока не загружено.', ky: 'Резюме азырынча жүктөлө элек.', en: 'The resume has not been uploaded yet.', ja: '履歴書はまだアップロードされていません。' },
   hint:    { ru: 'Открой резюме в просмотрщике PDF на устройстве или скачай файл.', ky: 'Резюмени түзмөктөгү PDF көрсөткүчтө ач же файлды жүктөп ал.', en: "Open the resume in your device's PDF viewer or download the file.", ja: '履歴書は端末のPDFビューアで開くか、ファイルをダウンロードしてください。' },
-  open:    { ru: 'Открыть PDF', ky: 'PDF ачуу', en: 'Open PDF', ja: 'PDFを開く' },
+  open:    { ru: 'Открыть', ky: 'Ачуу', en: 'Open', ja: '開く' },
   dl:      { ru: 'Скачать', ky: 'Жүктөп алуу', en: 'Download', ja: 'ダウンロード' },
   close:   { ru: 'Закрыть', ky: 'Жабуу', en: 'Close', ja: '閉じる' },
   empty:   { ru: 'Пока ничего нет.', ky: 'Азырынча эч нерсе жок.', en: 'Nothing here yet.', ja: 'まだ何もありません。' }
