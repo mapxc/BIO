@@ -36,7 +36,7 @@
     },
     {
       "title": "Email",
-      "url": "mailto:you@example.com",
+      "url": "mailto:kachkanakov.mars.info@gmail.com",
       "desc": ""
     }
   ],
@@ -45,70 +45,70 @@
       "title": "TryHackMe",
       "url": "https://tryhackme.com/p/YOUR-NAME",
       "desc": {
-        "ru": "Комнаты, пути обучения, рейтинг",
-        "ky": "Бөлмөлөр, окуу жолдору, рейтинг",
-        "en": "Rooms, learning paths, ranking",
-        "ja": "ルーム、学習パス、ランキング"
+        "ru": "",
+        "ky": "",
+        "en": "",
+        "ja": ""
       }
     },
     {
       "title": "Hack The Box",
       "url": "https://app.hackthebox.com/users/YOUR-ID",
       "desc": {
-        "ru": "Машины и челленджи",
-        "ky": "Машиналар жана челленждер",
-        "en": "Machines and challenges",
-        "ja": "マシンとチャレンジ"
+        "ru": "",
+        "ky": "",
+        "en": "",
+        "ja": ""
       }
     },
     {
-      "title": "HackerOne",
-      "url": "https://hackerone.com/YOUR-NAME",
+      "title": "",
+      "url": "",
       "desc": {
-        "ru": "Баг-баунти: найденные уязвимости",
-        "ky": "Bug bounty: табылган аялуулуктар",
-        "en": "Bug bounty: reported vulnerabilities",
-        "ja": "バグバウンティ：報告した脆弱性"
+        "ru": "",
+        "ky": "",
+        "en": "",
+        "ja": ""
       }
     },
     {
-      "title": "PortSwigger Academy",
-      "url": "https://portswigger.net/web-security",
+      "title": "",
+      "url": "",
       "desc": {
-        "ru": "Лаборатории по веб-безопасности",
-        "ky": "Веб-коопсуздук боюнча лабораториялар",
-        "en": "Web security labs",
-        "ja": "Webセキュリティのラボ"
+        "ru": "",
+        "ky": "",
+        "en": "",
+        "ja": ""
       }
     },
     {
-      "title": "CTFtime",
-      "url": "https://ctftime.org/user/YOUR-ID",
+      "title": "",
+      "url": "",
       "desc": {
-        "ru": "Команда и результаты CTF",
-        "ky": "CTF командасы жана жыйынтыктар",
-        "en": "CTF team and results",
-        "ja": "CTFチームと成績"
+        "ru": "",
+        "ky": "",
+        "en": "",
+        "ja": ""
       }
     },
     {
-      "title": "Credly",
-      "url": "https://www.credly.com/users/YOUR-NAME",
+      "title": "",
+      "url": "",
       "desc": {
-        "ru": "Сертификаты",
-        "ky": "Сертификаттар",
-        "en": "Certifications",
-        "ja": "資格・認定"
+        "ru": "",
+        "ky": "",
+        "en": "",
+        "ja": ""
       }
     },
     {
-      "title": "Blog",
-      "url": "https://medium.com/@YOUR-NAME",
+      "title": "",
+      "url": "",
       "desc": {
-        "ru": "Разборы и заметки",
-        "ky": "Талдоолор жана жазуулар",
-        "en": "Write-ups and notes",
-        "ja": "解説記事とメモ"
+        "ru": "",
+        "ky": "",
+        "en": "",
+        "ja": ""
       }
     }
   ]
