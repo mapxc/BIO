@@ -1,115 +1,65 @@
 {
-  "_help": "Замени всё, где написано YOUR-NAME, YOUR-ID или example.com, на свои данные. Чтобы убрать плашку, удали её блок целиком (вместе с запятой). Чтобы добавить, скопируй блок. Ключи, начинающиеся с _, сайт игнорирует.",
+  "_help": "Замени всё, где написано YOUR-NAME, YOUR-ID или example.com, на свои данные. Чтобы убрать плашку, удали её блок целиком (вместе с запятой). Чтобы добавить, скопируй блок. Резюме: каждый блок в resumes это один PDF-файл из репозитория; lang (ru/ky/en/ja) делает его резюме по умолчанию для этого языка. Ключи, начинающиеся с _, сайт игнорирует.",
   "name": {
-    "ru": "Марс Качканаков",
-    "ky": "Качканаков Марс",
-    "en": "Mars Kachkanakov",
-    "ja": "カチュウカナコブ　マルス"
+    "ru": "Имя Фамилия",
+    "ky": "Аты Жөнү",
+    "en": "First Last",
+    "ja": "姓 名"
   },
   "tagline": {
-    "ru": "Кибербезопасность",
-    "ky": "Киберкоопсуздук",
-    "en": "Cybersecurity",
-    "ja": "サイバーセキュリティ"
+    "ru": "Специалист по информационной безопасности. Пишу код, ломаю стенды, закрываю дыры.",
+    "ky": "Маалыматтык коопсуздук боюнча адис. Код жазам, стенддерди бузам, аялуу жерлерди жабам.",
+    "en": "Information security specialist. I write code, break lab targets and fix the holes.",
+    "ja": "情報セキュリティ担当。コードを書き、検証環境を攻略し、脆弱性を塞ぎます。"
   },
   "about": {
-    "ru": "Linux  /  Сети  /  Аудит ИБ  /  OSINT",
-    "ky": "Linux  /  Сеть  /  Аудит ИБ  /  OSINT",
-    "en": "Linux  /  Network  /  GRC  /  OSINT",
-    "ja": "Linux  /  ネットワーク  /  情報セキュリティ監査  /  OSINT"
+    "ru": "Коротко о себе: чем занимаюсь, что изучаю, что ищу.\nЗамени этот текст в data.json.",
+    "ky": "Өзүм жөнүндө кыскача: эмне менен алектенем, эмнени үйрөнүп жатам, эмнени издеп жатам.\nБул текстти data.json ичинде алмаштыр.",
+    "en": "A short intro: what I do, what I am studying, what I am looking for.\nReplace this text in data.json.",
+    "ja": "簡単な自己紹介：取り組んでいること、学んでいること、探していること。\nこの文章は data.json で書き換えてください。"
   },
   "socials": [
     {
       "title": "LinkedIn",
-      "url": "https://www.linkedin.com/in/marskachkanakov",
+      "url": "https://www.linkedin.com/in/YOUR-NAME",
       "desc": ""
     },
     {
       "title": "GitHub",
-      "url": "https://github.com/mapxc",
+      "url": "https://github.com/YOUR-NAME",
       "desc": ""
     },
     {
       "title": "Telegram",
-      "url": "https://t.me/marusudesu",
+      "url": "https://t.me/YOUR-NAME",
       "desc": ""
     },
     {
       "title": "Email",
-      "url": "mailto:kachkanakov.mars.info@gmail.com",
+      "url": "mailto:you@example.com",
       "desc": ""
     }
   ],
-  "links": [
+  "resumes": [
     {
-      "title": "TryHackMe",
-      "url": "https://tryhackme.com/p/YOUR-NAME",
-      "desc": {
-        "ru": "",
-        "ky": "",
-        "en": "",
-        "ja": ""
-      }
+      "title": "Русский",
+      "file": "resume-ru.pdf",
+      "lang": "ru"
     },
     {
-      "title": "Hack The Box",
-      "url": "https://app.hackthebox.com/users/YOUR-ID",
-      "desc": {
-        "ru": "",
-        "ky": "",
-        "en": "",
-        "ja": ""
-      }
+      "title": "Кыргызча",
+      "file": "resume-ky.pdf",
+      "lang": "ky"
     },
     {
-      "title": "",
-      "url": "",
-      "desc": {
-        "ru": "",
-        "ky": "",
-        "en": "",
-        "ja": ""
-      }
+      "title": "English",
+      "file": "resume-en.pdf",
+      "lang": "en"
     },
     {
-      "title": "",
-      "url": "",
-      "desc": {
-        "ru": "",
-        "ky": "",
-        "en": "",
-        "ja": ""
-      }
-    },
-    {
-      "title": "",
-      "url": "",
-      "desc": {
-        "ru": "",
-        "ky": "",
-        "en": "",
-        "ja": ""
-      }
-    },
-    {
-      "title": "",
-      "url": "",
-      "desc": {
-        "ru": "",
-        "ky": "",
-        "en": "",
-        "ja": ""
-      }
-    },
-    {
-      "title": "",
-      "url": "",
-      "desc": {
-        "ru": "",
-        "ky": "",
-        "en": "",
-        "ja": ""
-      }
+      "title": "日本語",
+      "file": "resume-ja.pdf",
+      "lang": "ja"
     }
   ]
 }
