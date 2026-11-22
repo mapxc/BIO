@@ -1,0 +1,54 @@
+{
+  "name": {
+    "ru": "Имя Фамилия",
+    "ky": "Аты Жөнү",
+    "en": "First Last",
+    "ja": "姓 名"
+  },
+  "tagline": {
+    "ru": "Специалист по информационной безопасности. Пишу код, ломаю стенды, закрываю дыры.",
+    "ky": "Маалыматтык коопсуздук боюнча адис. Код жазам, стенддерди бузам, аялуу жерлерди жабам.",
+    "en": "Information security specialist. I write code, break lab targets and fix the holes.",
+    "ja": "情報セキュリティ担当。コードを書き、検証環境を攻略し、脆弱性を塞ぎます。"
+  },
+  "about": {
+    "ru": "Коротко о себе: чем занимаюсь, что изучаю, что ищу.\nЗамени этот текст в админ-режиме.",
+    "ky": "Өзүм жөнүндө кыскача: эмне менен алектенем, эмнени үйрөнүп жатам, эмнени издеп жатам.\nБул текстти администратор режиминде алмаштыр.",
+    "en": "A short intro: what I do, what I am studying, what I am looking for.\nReplace this text in admin mode.",
+    "ja": "簡単な自己紹介：取り組んでいること、学んでいること、探していること。\nこの文章は管理モードで書き換えてください。"
+  },
+  "socials": [
+    {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/your-profile",
+      "desc": ""
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/your-username",
+      "desc": ""
+    }
+  ],
+  "links": [
+    {
+      "title": "TryHackMe",
+      "url": "https://tryhackme.com/p/your-username",
+      "desc": {
+        "ru": "Комнаты, пути обучения, рейтинг",
+        "ky": "Бөлмөлөр, окуу жолдору, рейтинг",
+        "en": "Rooms, learning paths, ranking",
+        "ja": "ルーム、学習パス、ランキング"
+      }
+    },
+    {
+      "title": "Hack The Box",
+      "url": "https://app.hackthebox.com/users/0",
+      "desc": {
+        "ru": "Машины и челленджи",
+        "ky": "Машиналар жана челленждер",
+        "en": "Machines and challenges",
+        "ja": "マシンとチャレンジ"
+      }
+    }
+  ]
+}
