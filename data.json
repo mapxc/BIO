@@ -1,64 +1,64 @@
 {
   "_help": "Замени всё, где написано YOUR-NAME, YOUR-ID или example.com, на свои данные. Чтобы убрать плашку, удали её блок целиком (вместе с запятой). Чтобы добавить, скопируй блок. Резюме: каждый блок в resumes это один PDF-файл из репозитория; lang (ru/ky/en/ja) делает его резюме по умолчанию для этого языка. Ключи, начинающиеся с _, сайт игнорирует.",
   "name": {
-    "ru": "Имя Фамилия",
-    "ky": "Аты Жөнү",
-    "en": "First Last",
-    "ja": "姓 名"
+    "ru": "Марс Качканаков",
+    "ky": "Качканаков Марс",
+    "en": "Mars Kachkanakov",
+    "ja": "カチュウカナコブ　マルス"
   },
   "tagline": {
-    "ru": "Специалист по информационной безопасности. Пишу код, ломаю стенды, закрываю дыры.",
-    "ky": "Маалыматтык коопсуздук боюнча адис. Код жазам, стенддерди бузам, аялуу жерлерди жабам.",
-    "en": "Information security specialist. I write code, break lab targets and fix the holes.",
-    "ja": "情報セキュリティ担当。コードを書き、検証環境を攻略し、脆弱性を塞ぎます。"
+    "ru": "Junior-специалист по Информационной Безопасности",
+    "ky": "Киберкоопсуздук боюнча Junior-адиси",
+    "en": "Junior Cybersecurity specialist",
+    "ja": "Junior 情報セキュリティ担当"
   },
   "about": {
-    "ru": "Коротко о себе: чем занимаюсь, что изучаю, что ищу.\nЗамени этот текст в data.json.",
-    "ky": "Өзүм жөнүндө кыскача: эмне менен алектенем, эмнени үйрөнүп жатам, эмнени издеп жатам.\nБул текстти data.json ичинде алмаштыр.",
-    "en": "A short intro: what I do, what I am studying, what I am looking for.\nReplace this text in data.json.",
-    "ja": "簡単な自己紹介：取り組んでいること、学んでいること、探していること。\nこの文章は data.json で書き換えてください。"
+    "ru": "Linux  /  Сети  /  Законы КР и стандарты  /  OSINT  /  Python (скриптинг)",
+    "ky": "Linux  /  Тармактар  /  КР мыйзамдары жана стандарттар  /  OSINT  /  Python (скриптинг)",
+    "en": "Linux  /  Network  /  Laws and Standarts  /  OSINT  /  Python (Scripting)",
+    "ja": "Linux  /  ネットワーク  /  法律と規格  /  OSINT  /  Python（スクリプティング）"
   },
   "socials": [
     {
       "title": "LinkedIn",
-      "url": "https://www.linkedin.com/in/YOUR-NAME",
+      "url": "https://www.linkedin.com/in/marskachkanakov",
       "desc": ""
     },
     {
       "title": "GitHub",
-      "url": "https://github.com/YOUR-NAME",
+      "url": "https://github.com/mapxc",
       "desc": ""
     },
     {
       "title": "Telegram",
-      "url": "https://t.me/YOUR-NAME",
+      "url": "https://t.me/marusudesu",
       "desc": ""
     },
     {
       "title": "Email",
-      "url": "mailto:you@example.com",
+      "url": "mailto:kachkanakov.mars.info@gmail.com",
       "desc": ""
     }
   ],
   "resumes": [
     {
       "title": "Русский",
-      "file": "resume-ru.pdf",
+      "file": "resume-RU.pdf",
       "lang": "ru"
     },
     {
       "title": "Кыргызча",
-      "file": "resume-ky.pdf",
+      "file": "resume-KG.pdf",
       "lang": "ky"
     },
     {
       "title": "English",
-      "file": "resume-en.pdf",
+      "file": "resume-EN.pdf",
       "lang": "en"
     },
     {
       "title": "日本語",
-      "file": "resume-ja.pdf",
+      "file": "resume-JP.pdf",
       "lang": "ja"
     }
   ]
