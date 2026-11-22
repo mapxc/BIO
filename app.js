@@ -51,7 +51,7 @@ function pickLang() {
 function renderLangs() {
   const n = $('#langs'); n.replaceChildren();
   LANGS.forEach((l) => {
-    const b = el('button', 'lang', l.toUpperCase()); b.type = 'button'; b.title = LANG_NAMES[l]; b.lang = l;
+    const b = el('button', 'lang', LANG_NAMES[l]); b.type = 'button'; b.title = LANG_NAMES[l]; b.lang = l;
     b.setAttribute('aria-pressed', String(l === lang));
     b.onclick = () => { lang = l; try { localStorage.setItem('noir_lang', l); } catch (e) {} renderAll(); };
     n.append(b);

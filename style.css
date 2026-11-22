@@ -53,7 +53,7 @@ footer{display:flex;justify-content:space-between;padding-top:1rem;padding-botto
  .row .btn{flex:1 1 100%;text-align:center}
 }
 @media(max-height:480px) and (orientation:landscape){.overlay{padding:0}.dlg,.dlg.wide{height:100%;max-height:none}}
-.langs{display:flex;justify-content:flex-end;gap:.4rem;padding-top:1rem}
+.langs{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:.4rem;padding-top:1rem}
 .lang{border:1px solid var(--line);background:#000;color:var(--dim);font:.82rem var(--mono);padding:.3rem .6rem;cursor:pointer}
 .lang[aria-pressed=true]{background:var(--fg);color:#000;border-color:var(--fg)}
 @media(hover:hover){.lang:hover{border-color:var(--fg);color:var(--fg)}.lang[aria-pressed=true]:hover{color:#000}}

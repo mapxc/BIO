@@ -1,4 +1,5 @@
 {
+  "_help": "Замени всё, где написано YOUR-NAME, YOUR-ID или example.com, на свои данные. Чтобы убрать плашку, удали её блок целиком (вместе с запятой). Чтобы добавить, скопируй блок. Ключи, начинающиеся с _, сайт игнорирует.",
   "name": {
     "ru": "Имя Фамилия",
     "ky": "Аты Жөнү",
@@ -12,27 +13,37 @@
     "ja": "情報セキュリティ担当。コードを書き、検証環境を攻略し、脆弱性を塞ぎます。"
   },
   "about": {
-    "ru": "Коротко о себе: чем занимаюсь, что изучаю, что ищу.\nЗамени этот текст в админ-режиме.",
-    "ky": "Өзүм жөнүндө кыскача: эмне менен алектенем, эмнени үйрөнүп жатам, эмнени издеп жатам.\nБул текстти администратор режиминде алмаштыр.",
-    "en": "A short intro: what I do, what I am studying, what I am looking for.\nReplace this text in admin mode.",
-    "ja": "簡単な自己紹介：取り組んでいること、学んでいること、探していること。\nこの文章は管理モードで書き換えてください。"
+    "ru": "Коротко о себе: чем занимаюсь, что изучаю, что ищу.\nЗамени этот текст в data.json.",
+    "ky": "Өзүм жөнүндө кыскача: эмне менен алектенем, эмнени үйрөнүп жатам, эмнени издеп жатам.\nБул текстти data.json ичинде алмаштыр.",
+    "en": "A short intro: what I do, what I am studying, what I am looking for.\nReplace this text in data.json.",
+    "ja": "簡単な自己紹介：取り組んでいること、学んでいること、探していること。\nこの文章は data.json で書き換えてください。"
   },
   "socials": [
     {
       "title": "LinkedIn",
-      "url": "https://www.linkedin.com/in/your-profile",
+      "url": "https://www.linkedin.com/in/YOUR-NAME",
       "desc": ""
     },
     {
       "title": "GitHub",
-      "url": "https://github.com/your-username",
+      "url": "https://github.com/YOUR-NAME",
+      "desc": ""
+    },
+    {
+      "title": "Telegram",
+      "url": "https://t.me/YOUR-NAME",
+      "desc": ""
+    },
+    {
+      "title": "Email",
+      "url": "mailto:you@example.com",
       "desc": ""
     }
   ],
   "links": [
     {
       "title": "TryHackMe",
-      "url": "https://tryhackme.com/p/your-username",
+      "url": "https://tryhackme.com/p/YOUR-NAME",
       "desc": {
         "ru": "Комнаты, пути обучения, рейтинг",
         "ky": "Бөлмөлөр, окуу жолдору, рейтинг",
@@ -42,12 +53,62 @@
     },
     {
       "title": "Hack The Box",
-      "url": "https://app.hackthebox.com/users/0",
+      "url": "https://app.hackthebox.com/users/YOUR-ID",
       "desc": {
         "ru": "Машины и челленджи",
         "ky": "Машиналар жана челленждер",
         "en": "Machines and challenges",
         "ja": "マシンとチャレンジ"
+      }
+    },
+    {
+      "title": "HackerOne",
+      "url": "https://hackerone.com/YOUR-NAME",
+      "desc": {
+        "ru": "Баг-баунти: найденные уязвимости",
+        "ky": "Bug bounty: табылган аялуулуктар",
+        "en": "Bug bounty: reported vulnerabilities",
+        "ja": "バグバウンティ：報告した脆弱性"
+      }
+    },
+    {
+      "title": "PortSwigger Academy",
+      "url": "https://portswigger.net/web-security",
+      "desc": {
+        "ru": "Лаборатории по веб-безопасности",
+        "ky": "Веб-коопсуздук боюнча лабораториялар",
+        "en": "Web security labs",
+        "ja": "Webセキュリティのラボ"
+      }
+    },
+    {
+      "title": "CTFtime",
+      "url": "https://ctftime.org/user/YOUR-ID",
+      "desc": {
+        "ru": "Команда и результаты CTF",
+        "ky": "CTF командасы жана жыйынтыктар",
+        "en": "CTF team and results",
+        "ja": "CTFチームと成績"
+      }
+    },
+    {
+      "title": "Credly",
+      "url": "https://www.credly.com/users/YOUR-NAME",
+      "desc": {
+        "ru": "Сертификаты",
+        "ky": "Сертификаттар",
+        "en": "Certifications",
+        "ja": "資格・認定"
+      }
+    },
+    {
+      "title": "Blog",
+      "url": "https://medium.com/@YOUR-NAME",
+      "desc": {
+        "ru": "Разборы и заметки",
+        "ky": "Талдоолор жана жазуулар",
+        "en": "Write-ups and notes",
+        "ja": "解説記事とメモ"
       }
     }
   ]
